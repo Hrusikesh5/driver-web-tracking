@@ -1,0 +1,42 @@
+.container {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.driver-input {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.start-button,
+.stop-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.stop-button {
+  background-color: #dc3545;
+}
+
+.locations ul {
+  list-style: none;
+  padding: 0;
+}
+
+.locations li {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  padding: 8px;
+  margin-top: 5px;
+}
